@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=Julee&family=Trocchi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=Julee&family=Trocchi&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Golos Text', sans-serif;
+    }
+
+header {
+    padding: 40px;
+    background-color: #6d3334;
+}
+
+header h1{
+    text-align: center;
+    font-size: 60px;
+    color: #fffbcc;
+    font-family: 'Trocchi', serif;
+    letter-spacing: 4px;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: black;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    float: left;
+}
+
+nav ul a li{
+    padding: 12px;
+    display: inline-block;
+    background-color: black;
+    color: #fffbcc;
+    font-size: large;
+}
+
+nav a li{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+nav a:hover li{
+    background-color: rgba(94.12%, 97.25%, 100%, .8);
+    color: #6d3334;
+}
+
+.contenedor {
+    margin: 15px;
+    padding: 30px;
+    box-shadow: 0px 0px 9px 1px #6d3334;
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+
+.contenedor h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.6em;
+    color: #6d3334;
+}
+
+#hobbies {
+    display: inline-block;
+    padding: 10px;
+    width: 400px;
+    margin: 0px 20px 15px 220px;
+    float: left;
+}
+
+#hobbies ul li {
+    color: black;
+    margin-left: 30px;
+    padding: 3px;
+}
+
+#comidas {
+    display: inline-block;
+    width: 400px;
+    margin: 0px 100px 0px 0px;
+    height: 244px;
+}
+
+#comidas ul li {
+    color: black;
+    margin-left: 30px;
+    padding: 3px;
+}
+
+#tabla {
+    clear: both;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-radius: 20px;
+    border-collapse: collapse;
+    padding: 5px;
+    width: 700px;
+    margin: auto;
+}
+
+th {
+    font-size: 20px;
+}
+
+td {
+    text-align: center;
+}
+
+#contenedor2 {
+    margin: 10px auto;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 500px;
+    padding: 20px;
+}
+
+label {
+    padding: 20px;
+    margin: 5px;
+    font-size: 18px;
+}
+
+input {
+    width: 78%;
+    padding: 10px 0;
+    color: black;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-left: 50px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+input[type="submit"] {
+    background-color: #6d3334;
+    border: none;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 15px;
+    color: #fffbcc;
+    margin-top: 30px;
+    font-size: 17px;
+}
+
+footer {
+    background-color: #6d3334;
+}
+
+footer, h2, h3{
+    color: #fffbcc;
+    margin: 20px auto;
+    text-align: center;
+    padding: 3px;
+}
+
+footer h2 {
+    font-size: 25px;
+}
+
+footer h3 {
+    font-size: 18px;
+}
+
+
+footer strong, li {
+    color: black;
+}
+
+footer li {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+footer li {
+    list-style: none;
+}
+
+img {
+    border-radius: 15px;
+}
+
+div#imagen{
+    text-align: center;
+}
+
+textarea {
+    width: 60%;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+
+
