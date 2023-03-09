@@ -9,23 +9,24 @@
 
 header {
     padding: 40px;
-    background-color: #6d3334;
+    background-color: #060709;
 }
 
 header h1{
     text-align: center;
     font-size: 60px;
-    color: #fffbcc;
+    color: #559da2;
     font-family: 'Trocchi', serif;
     letter-spacing: 4px;
 }
 
 nav ul {
     list-style-type: none;
-    background-color: black;
+    background-color: #060709;
     overflow: hidden;
     margin: 0;
     padding: 0;
+    border-top: 2px solid #559da2;
 }
 
 nav li {
@@ -33,39 +34,39 @@ nav li {
 }
 
 nav ul a li{
+    font-weight: 150;
+    letter-spacing: 1px;
     padding: 12px;
     display: inline-block;
-    background-color: black;
-    color: #fffbcc;
+    background-color: #060709;
+    color: white;
     font-size: large;
 }
 
 nav a li{
     display: block;
-    color: white;
+    color: #559da2;
     text-align: center;
     padding: 15px;
     text-decoration: none;
 }
 
 nav a:hover li{
-    background-color: rgba(94.12%, 97.25%, 100%, .8);
-    color: #6d3334;
+    background-color: #559da2;
 }
 
 .contenedor {
     margin: 15px;
     padding: 30px;
-    box-shadow: 0px 0px 9px 1px #6d3334;
+    box-shadow: 0px 0px 9px 1px #559da2;
     border-radius: 20px;
-    background-color: aliceblue;
 }
 
 .contenedor h2{
     text-align: center;
     margin-bottom: 20px;
     font-size: 1.6em;
-    color: #6d3334;
+    color: #559da2;
 }
 
 #hobbies {
@@ -144,24 +145,24 @@ input {
 }
 
 input[type="submit"] {
-    background-color: #6d3334;
+    background-color: #559da2;
     border: none;
     letter-spacing: 5px;
     text-transform: uppercase;
     border-radius: 5px;
     cursor: pointer;
     padding: 15px;
-    color: #fffbcc;
+    color: white;
     margin-top: 30px;
-    font-size: 17px;
+    font-size: 19px;
 }
 
 footer {
-    background-color: #6d3334;
+    background-color: #060709;
 }
 
 footer, h2, h3{
-    color: #fffbcc;
+    color: #559da2;
     margin: 20px auto;
     text-align: center;
     padding: 3px;
@@ -177,7 +178,7 @@ footer h3 {
 
 
 footer strong, li {
-    color: black;
+    color: white;
 }
 
 footer li {
